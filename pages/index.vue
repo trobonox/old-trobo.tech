@@ -1,16 +1,25 @@
 <template>
   <main>
-    <section id="introduction" class="flex flex-col-reverse sm:flex-row items-start mb-10">
+    <section
+      id="introduction"
+      class="flex flex-col-reverse sm:flex-row items-start mb-10"
+    >
       <div class="pr-8">
-        <span class="mb-1 text-lg text-cppnGray-1 font-light tracking-wider">Hi there,</span>
+        <span class="mb-1 text-lg text-cppnGray-1 font-light tracking-wider"
+          >Hi there,</span
+        >
         <h1 class="mb-1 text-6xl font-bold tracking-tight">
           I'm
           <span class="text-mauve">Trobo</span>
         </h1>
-        <h2 class="mb-4 text-lg tracking-tight">Developer and Tech Enthusiast from Germany</h2>
-        <p
-          class="text-cppnGray-2 mb-1"
-        >Welcome to my corner of the internet! This is my virtual "business card" and a little blog where I occasionally post things I want to share with the world.</p>
+        <h2 class="mb-4 text-lg tracking-tight">
+          Developer and Tech Enthusiast from Germany
+        </h2>
+        <p class="text-cppnGray-2 mb-1">
+          Welcome to my corner of the internet! This is my virtual "business
+          card" and a little blog where I occasionally post things I want to
+          share with the world.
+        </p>
         <a
           href="/about"
           class="flex flex-row items-center gap-1 tracking-tight text-cppnGray-1 hover:text-mauve"
@@ -43,6 +52,12 @@
     <section id="projects" class="pb-8">
       <h2 class="mb-4 text-3xl font-bold tracking-tight">Projects</h2>
       <div class="flex flex-col gap-2">
+        <project-card
+          title="Kanban Electron"
+          description="A cross-platform Kanban board desktop application made with Electron and Nuxt.js, with a focus on simplicity and user experience."
+          github="https://github.com/trobonox/kanban-electron"
+          stack="HTML, CSS, Javascript, Nuxt.js, Electron, Electron-Store, JSON"
+        />
         <project-card
           title="Productivity Suite"
           description="All-in-one web app for productivity tools like a Pomodoro timer and a Kanban board, with more tools like notes and a calendar planned. Full user authentication and remote saving available using Supabase as the backend."

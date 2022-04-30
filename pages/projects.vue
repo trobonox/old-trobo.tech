@@ -4,6 +4,12 @@
     <h2 class="mb-8">Here's some projects I have made so far:</h2>
     <div class="flex flex-col gap-4">
       <project-card
+        title="Kanban Electron"
+        description="A cross-platform Kanban board desktop application made with Electron and Nuxt.js, with a focus on simplicity and user experience."
+        github="https://github.com/trobonox/kanban-electron"
+        stack="HTML, CSS, Javascript, Nuxt.js, Electron, Electron-Store, JSON"
+      />
+      <project-card
         title="Productivity Suite"
         description="All-in-one web app for productivity tools like a Pomodoro timer and a Kanban board, with more tools like notes and a calendar planned. Full user authentication and remote saving available using Supabase as the backend."
         demo="https://productivity-suite-three.vercel.app"
