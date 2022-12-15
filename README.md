@@ -1,5 +1,7 @@
 # trobo.tech
 
+OUTDATED VERSION
+
 Personal portfolio website built using Nuxt.js and TailwindCSS
 Blog made using @nuxt/content and Markdown.
 
